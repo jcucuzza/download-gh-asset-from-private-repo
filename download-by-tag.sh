@@ -9,7 +9,7 @@
 #
 #       curl, jq
 # USAGE
-#       ./download.sh <github-pat-token> <operating-system> <release>
+#       ./download.sh <github-pat-token> <owner> <repository> <tag> <asset>
 #
 # EXAMPLE
 #       ./download.sh ghp_01910eafb31c72fb9c72ad4afcb0z jcucuzza myapps-repo 1.0.0 my-asset-to-download
