@@ -13,7 +13,7 @@
 #
 # EXAMPLE
 #       ./download.sh ghp_01910eafb31c72fb9c72ad4afcb0z jcucuzza myapps-repo 1.0.0 my-asset-to-download
-#
+# 
 
 GITHUB_API_TOKEN=$1
 OWNER=$2
@@ -21,7 +21,7 @@ REPO=$3
 TAG=$4
 ASSET_TO_DOWNLOAD=$5
 
-GH_API="https://api.github.com/"
+GH_API="https://api.github.com"
 GH_REPO="$GH_API/repos/$OWNER/$REPO"
 GH_LATEST="$GH_REPO/releases/tags/$TAG"
 AUTH="Authorization: token $GITHUB_API_TOKEN"
